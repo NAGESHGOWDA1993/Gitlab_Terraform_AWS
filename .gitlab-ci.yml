@@ -7,7 +7,7 @@ workflow:
 
 variables:
   TF_DIR: ${CI_PROJECT_DIR}/terraform
-  STATE_NAME: "terraform_gitlab_state"
+  STATE_NAME: "terraform_gitlab_statefile"
   ADDRESS: "https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/terraform/state/${STATE_NAME}"
 
 stages:
