@@ -12,7 +12,7 @@ resource "aws_instance" "Nagesh-ec2" {
         yum install httpd -y
         systemctl start httpd
         systemctl enable httpd
-        echo "<html><body><h1>This is Nagesh lab Project Tier 1 </h1></body></html>" > /var/www/html/index.html
+        echo "<html><body><h1>Design and implement a CI/CD pipeline that builds, tests and deploys a single-page web application by Nagesha </h1></body></html>" > /var/www/html/index.html
         EOF
   tags = {
     Name = "nagesh-EC2"
